@@ -1,15 +1,13 @@
-@font-face {
-    src: url(font/RubikMonoOne-Regular.ttf);
-    font-family: RubikMono;
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playwrite+NZ+Basic:wght@100..400&family=Rubik+Mono+One&display=swap');
+
 
 h1 {
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;    
     font-size: 40px;
     display: flex;
     justify-content: center;
-    font-family: RubikMono;
+    font-family: "Rubik Mono One";
     color: rgb(74, 165, 76);
 }
 
