@@ -1,0 +1,53 @@
+@font-face {
+    src: url(font/RubikMonoOne-Regular.ttf);
+    font-family: RubikMono;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: RubikMono;
+    color: rgb(74, 165, 76);
+}
+
+p {
+    padding: 30px;
+    font-size: 20px;
+    font-family: arial;
+    max-width: 450px; 
+    text-align: justify;
+}
+
+span {
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.pic {
+    width:200px;
+    height: 200px;
+}
+
+#pic1 {
+    border: 6px dashed red; 
+}
+
+#pic2 {
+    border: 6px dashed blue;
+}
+
+#pic3 {
+    border: 6px dashed yellow;
+}
+
+#pic4 {
+    border: 6px dashed purple;
+}
