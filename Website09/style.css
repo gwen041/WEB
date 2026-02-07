@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+}
+
+h1 {
+    font-family: arial;
+}
+
+p {
+    text-align: justify;
+    max-width: 460px;
+}
+
+.position {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.border {
+    display: flex;
+    width: fit-content;
+    border: 10px ridge; 
+    border-radius: 10px;
+}
+
+.mixer {
+    border-color: rgb(110, 108, 109); 
+    background-color: rgb(110, 108, 109);
+    color:rgb(234, 234, 234)
+}
+
+.pie {
+    border-color: rgb(215,123,25);
+    background-color: rgb(215,123,25);
+    color: bisque;
+}
+
+.bowl {
+    border-color:rgb(201,209,212);
+    background-color: rgb(201,209,212);
+    color:rgb(78, 99, 107);
+    
+}
+
+.spoon {
+    border-color: rgb(166,119,97);
+    background-color: rgb(166, 119, 97);
+    color: bisque;
+}
