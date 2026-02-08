@@ -1,0 +1,31 @@
+* {
+    margin:0;
+}
+
+body {
+    background-image: url('src/bg.webp');
+    background-repeat: no-repeat;
+    background-position:50%;
+    background-attachment: fixed;
+    background-size:cover;  
+}
+
+.nav-bar {
+    display:flex;
+    justify-content:center;
+    background-color: hsl(342, 98%, 21%)
+}
+.nav-bar ul{
+    list-style-type: none;
+    display:flex;
+}
+
+.nav-bar li{
+    padding:1em;
+}
+
+.nav-bar li:hover {
+    background-color: hsl(342, 98%, 35%);
+    border-radius: 20px;
+    color: white;
+}
