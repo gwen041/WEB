@@ -2,20 +2,19 @@
 
 
 h1 {
-    margin-top: 40px;
-    margin-bottom: 50px;    
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;    
+    font-size: 2.5rem;
+    text-align: center;
     font-family: "Rubik Mono One";
     color: rgb(74, 165, 76);
 }
 
 p {
-    padding: 30px;
-    font-size: 20px;
+    padding: 1.5rem;
+    font-size: 1rem;
     font-family: arial;
-    max-width: 450px; 
+    max-width: 45ch; 
     text-align: justify;
 }
 
@@ -27,11 +26,13 @@ span {
     display: flex;
     justify-content:center;
     align-items: center;
+    margin: 1rem;
 }
 
 .pic {
-    width:200px;
-    height: 200px;
+    width:100%;
+    max-width: 200px;
+    height: auto;
 }
 
 #pic1 {
@@ -48,4 +49,10 @@ span {
 
 #pic4 {
     border: 6px dashed purple;
+}
+
+@media (max-width: 780px) {
+    .container {
+        flex-direction: column;
+    }
 }
