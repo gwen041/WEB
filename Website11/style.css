@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: Outfit;
+}
+header{
+    text-align: center;
+}
+
+.content {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.btnpage {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.btnpage a{
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px;
+    color: black; 
+}
+
+.btnpage a:hover {
+    background-color: hsl(336, 100%, 91%);
+    color: hsl(336, 100%, 50%);
+    transition: background-color 0.3s ease, color 0.2s ease;
+}
