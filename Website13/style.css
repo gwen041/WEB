@@ -5,7 +5,6 @@
 }
 
 body {
-
   display:flex;
   justify-content:center;
   align-items:center;
@@ -16,7 +15,6 @@ body {
 table, th, td {
   border: 3px solid hsl(26, 32%, 20%);
   border-collapse: collapse;
-
   color: whitesmoke;
 }
 
