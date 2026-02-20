@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Website15/style.css">
+  <title>Registration Form</title>
+</head>
+<body>
+
+  <h1>Student Registration Form</h1>
+
+  <form action="/Website15/submit.html">
+
+    <div class="container">
+      <div>
+        <label for="rollno">Roll no.:</label>
+        <input type="text"> <br><br>
+
+        <label for="lname">Student Name:</label>
+        <input type="text" placeholder="First Name"> -
+        <input type="text" placeholder="Last Name"><br><br>
+
+        <label for="father">Father's Name:</label> &nbsp;
+        <input type="text"><br><br>
+
+        <label for="date">Date of birth:</label> &nbsp;
+        <input type="date"><br><br>
+
+        <label for="number">Mobile no.:</label> &nbsp;
+        <input type="tel" value="+91 "> <br><br>
+
+        <label for="email">Email id:</label> &nbsp;
+        <input type="email"><br><br>
+
+        <label for="password">Password:</label> &nbsp;
+        <input type="password"><br><br>
+
+        <label for="gender">Gender:</label> &nbsp;
+        <input type="radio" name="gender">
+        <label>Male</label>
+        <input type="radio" name="gender">
+        <label>Female</label><br><br>
+
+        <label for="dept">Department:</label> &nbsp;
+        <input type="checkbox" name="dept">
+        <label>CSE</label>
+        <input type="checkbox" name="dept">
+        <label>IT</label>
+        <input type="checkbox" name="dept">
+        <label>ECE</label>
+        <input type="checkbox" name="dept">
+        <label>Civil</label>
+        <input type="checkbox" name="dept">
+        <label>Mech</label><br><br>
+
+        <label for="course">Course:</label> &nbsp;
+        <select>
+          <option>BSCS</option>
+          <option>BSIT</option>
+          <option>BSECE</option>
+        </select><br><br>
+
+        <label for="photo">Student photo:</label> &nbsp;
+        <input type="file"><br><br>
+
+        <label for="city">City:</label>
+        <input type="text"><br><br>
+
+        <label for="address">Address:</label> &nbsp;
+        <textarea name="address" rows="5" cols="40"></textarea><br><br>
+
+        <div id="button">
+          <input type="submit" value="Register"> &nbsp;
+          <input type="reset" value="Clear">
+        </div>
+      </div>
+    </div>
+
+  </form>
+  
+</body>
+</html>
