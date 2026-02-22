@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div p {
+  max-width: 500px;
+  text-align: justify;
+}
+
+blockquote {
+  max-width: 400px;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse:collapse;
+  height: 30px;
+  padding:10px;
+}
