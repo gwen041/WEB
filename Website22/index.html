@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Website22/style.css">
+  <title>Global Adventures Blog</title>
+</head>
+<body>
+
+  <header>
+    <h1>Journeys of Friendship: Exploring the World Together</h1>
+    <p>Welcome to the adventure! Traveling with friends turns every moment into a memory — from spontaneous laughs to unforgettable discoveries. The best stories are about to begin.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="">Homepage</a></li>
+      <li><a href="">Cities</a></li>
+      <li><a href="">Gallery</a></li>
+        <ul>
+          <li><a href="">Toronto</a></li>
+          <li><a href="">Vancouver</a></li>
+          <li><a href="">Montreal</a></li>
+        </ul>
+      <li><a href="">Contact</a></li>
+      <li><a href="">Subscribe</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <div class="slider">
+      <button onclick="prevImg()">&lt;</button>
+      
+      <figure>
+        <img id="slide" src="src/toronto.jpg" alt="City">
+        <figcaption id="caption">
+          Toronto - A vibrant city where cultures meet.
+        </figcaption>
+      </figure>
+
+      <button onclick="nextImg()">&gt;</button>  
+    </div>
+
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>

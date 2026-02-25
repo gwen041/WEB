@@ -1,0 +1,21 @@
+.slider img {
+  width:400px;
+}
+
+.slider {
+  display:flex;
+  align-items: center;
+}
+
+.slider button {
+  font-size: 1.5em;
+  border:none;
+  padding:10px;
+  border-radius: 20px;
+}
+
+.slider button:hover {
+  background-color: hsl(0, 0%, 49%);
+  border-radius: 20px;
+  color: white;
+}
