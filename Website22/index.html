@@ -14,14 +14,17 @@
   </header>
 
   <nav>
-    <ul>
+    <ul class="nav-bar">
       <li><a href="index.html">Homepage</a></li>
-      <li><a href="">Cities</a></li>
-        <ul>
+      <li onclick="showMenu()" class="dropd">
+        Cities
+        <ul id="dropd-content">
           <li><a href="toronto.html">Toronto</a></li>
           <li><a href="vancouver.html">Vancouver</a></li>
           <li><a href="montreal.html">Montreal</a></li>
         </ul>
+      </li>
+        
       <li><a href="">Gallery</a></li>
       <li><a href="">Contact</a></li>
       <li><a href="">Subscribe</a></li>

@@ -32,3 +32,9 @@ function prevImg() {
   index = (index - 1 + slides.length) % slides.length;
   show();
 }
+
+
+function showMenu() {
+      const dropDown = document.getElementById('dropd-content');
+      dropDown.style.display === 'flex' ? dropDown.style.display = 'none' : dropDown.style.display = 'flex';
+}
