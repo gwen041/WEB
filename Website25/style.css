@@ -14,6 +14,86 @@ body {
   margin: 0;
 }
 
+.form-container {
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 700px; 
+  margin: 40px 20px; 
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: hsl(0, 0%, 20%);
+}
+
+form {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 20px; 
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  color: hsl(0, 0%, 33%);
+}
+
+input[type=text], 
+input[type=date], 
+input[type=tel], 
+input[type=email], 
+input[type=password], 
+select, 
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+}
+
+.name-inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-group, .checkbox-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.radio-group label, .checkbox-group label {
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.button-group {
+  grid-column: span 2;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type=submit], input[type=reset] {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+input[type=submit] { background-color: hsl(122, 46%, 53%); color: white; }
+input[type=reset] { background-color: hsl(4, 82%, 55%); color: white; }
+input[type=submit]:hover { background-color: hsl(123, 38%, 46%); }
+input[type=reset]:hover { background-color: hsl(4, 90%, 45%); }
+
 .success-container {
   display: flex;
   flex-direction: column;
