@@ -8,25 +8,50 @@
 </head>
 <body>
 
-  <div class="frmcontainer">
-     
-    <form action="">
+  <header>
+    <h1>Contact</h1>
+  </header>
 
-      <label for="uname">Name:</label>
-      <input type="text" name="uname" id="name" placeholder="Jes Castillo">
+  <nav>
+    <ul class="nav-bar">
+      <li><a href="index.html">Homepage</a></li>
+      <li class="dropd">
+        Cities
+        <ul id="dropd-content">
+          <li><a href="toronto.html">Toronto</a></li>
+          <li><a href="vancouver.html">Vancouver</a></li>
+          <li><a href="montreal.html">Montreal</a></li>
+        </ul>
+      </li>
+        
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="">Subscribe</a></li>
+    </ul>
+  </nav>
 
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" placeholder="jespogifr14@gmail.com">
+  <main>
+    <div class="frmcontainer">
+      <form action="" method="post">
 
-      <label for="subject">Subject</label>
-      <input type="text" name="subject" id="subject"><br>
+        <label for="uname">Name:</label>
+        <input type="text" name="uname" id="name" placeholder="Jes Castillo">
 
-      <label for="message">Share your stories:</label>
-      <textarea name="message" id="message" cols="40" rows="15"></textarea>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="jespogifr14@gmail.com">
 
-      <input type="submit" value="Submit">
-    </form>
-  </div>
+        <label for="subject">Subject</label>
+        <input type="text" name="subject" id="subject">
+
+        <label for="message">Share your stories:</label>
+        <textarea name="message" id="message" cols="40" rows="15"></textarea>
+
+        <input onclick="submit()" type="submit" value="Submit">
+      </form>
+    </div>
+
+  </main>
   
+  <script src="script.js"></script>
 </body>
 </html>
