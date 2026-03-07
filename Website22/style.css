@@ -136,6 +136,11 @@ nav {
   box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.2);
 }
 
+.frmcontainer h2 {
+  color:rgb(187, 98, 113);
+  text-align: center;
+}
+
 form {
   display: grid;
   grid-template-columns: 100px 1fr;

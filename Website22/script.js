@@ -33,8 +33,6 @@ function prevImg() {
   show();
 }
 
-
-function showMenu() {
-      const dropDown = document.getElementById('dropd-content');
-      dropDown.style.display === 'flex' ? dropDown.style.display = 'none' : dropDown.style.display = 'flex';
+function submit() {
+  window.location.href = "success.html";
 }
