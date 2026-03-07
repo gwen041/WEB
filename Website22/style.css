@@ -8,6 +8,44 @@
 
 }
 
+header {
+  padding: 20px;
+  background-color: #fff;
+}
+
+main {
+  max-width: 800px; 
+  padding: 20px;
+}
+
+.landmarks, .culinary {
+  margin-bottom: 50px;
+}
+
+.landmarks p, .culinary p {
+  text-align: justify;
+}
+
+figure {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+figure img {
+  width: 100%; 
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-style: italic;
+  color: #555;
+}
+
+
+
 .slider img {
   width:400px;
 }
@@ -32,8 +70,6 @@
 
 nav {
   background-color: pink;
-  margin: 30px 0;
-
 }
 
 .nav-bar {
@@ -90,4 +126,5 @@ nav {
 
 #dropd-content a:hover {
   background-color: hsl(351, 92%, 80%);
+  border-radius: 5px;
 }
